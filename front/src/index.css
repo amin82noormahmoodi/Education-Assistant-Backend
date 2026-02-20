@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600&display=swap");
+
+@font-face {
+  font-family: "BNazanin";
+  src: local("BNazanin"), local("B Nazanin"), local("Nazanin");
+  font-display: swap;
+}
+
+:root {
+  font-family: "Vazirmatn", Tahoma, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #0f172a;
+  background-color: #f1f5f9;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f1f5f9;
+  overflow-y: auto;
+  direction: rtl;
+}
+
+#root {
+  min-height: 100vh;
+  direction: ltr;
+}
